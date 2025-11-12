@@ -28,19 +28,16 @@ def sanitize_filename(doc_id: str) -> str:
     return re.sub(r"[^a-zA-Z0-9_\-]", "_", str(doc_id))
 
 
-def is_usable(report: str) -> bool:
-    """Check if report has enough paragraphs and length."""
-    if not report:
+def is_usable(normalized_report: str) -> bool:
+    if not normalized_report:
         return False
-    
-    # Count paragraphs BEFORE normalization (on original text)
-    # Paragraphs are separated by double newlines
-    paragraph_count = len([p for p in report.split("\n\n") if p.strip()])
-    
-    # Also check word count
-    word_count = len(report.split())
-    
-    return paragraph_count >= MIN_PARAGRAPHS and word_count >= 120
+
+    paragraphs = [p for p in re.split(r"\n\s*\n", normalized_report) if p.strip()]
+    paragraph_count = len(paragraphs)
+    word_count = len(normalized_report.split())
+
+    return word_count >= 200 and (paragraph_count >= MIN_PARAGRAPHS or word_count >= 400)
+
 
 
 def main():
@@ -55,10 +52,11 @@ def main():
     for idx in indices:
         example = train_pool[idx]
         report = example["report"]
+        normalized = normalize_text(report)
         
         # Check usability BEFORE normalization
-        if is_usable(report):
-            normalized = normalize_text(report)
+        if is_usable(normalized):
+            
             doc_id = example.get("report_id", idx)
             selected.append((doc_id, normalized))
         if len(selected) >= TOTAL_DOCS:
