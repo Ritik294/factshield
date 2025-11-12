@@ -24,8 +24,8 @@ if __name__ == '__main__':
     ap.add_argument('--threshold', type=float, default=0.2)
     args = ap.parse_args()
 
-    tok = AutoTokenizer.from_pretrained('roberta-base-mnli')
-    model = AutoModelForSequenceClassification.from_pretrained('roberta-base-mnli')
+    tok = AutoTokenizer.from_pretrained('roberta-large-mnli')
+    model = AutoModelForSequenceClassification.from_pretrained('roberta-large-mnli')
 
     # chunk lookup
     chunk_map = {}

@@ -13,3 +13,4 @@ scikit-learn>=1.4
 tqdm>=4.66
 gradio>=4.38
 datasets>=2.20.0
+pytest

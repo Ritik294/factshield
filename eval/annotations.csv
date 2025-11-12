@@ -1,0 +1,14 @@
+doc_id,sent_id,text,label_annotator1,label_annotator2,error_type
+dev_1032,0,"A limited number of weapon programs constitutes a structure for doing business that is altogether different from a classic free market.",SUPPORTED,SUPPORTED,
+dev_1032,1,"There is less competition, more regulation, and once a contract is awarded, the contractor has considerable power.",SUPPORTED,SUPPORTED,
+dev_1032,2,"The closer the product comes to production the more the customer becomes invested and the less likely they are to walk away from that investment.",SUPPORTED,LOW-CONF,discourse
+dev_1032,3,"The reasons why a weapon acquisition program is started are manifold and acquisitions do not merely provide technical solutions.",SUPPORTED,SUPPORTED,
+dev_10372,0,"A working group will provide expertise on the cybersecurity of platform information technology systems across DOD.",SUPPORTED,SUPPORTED,
+dev_10372,1,"DOD implemented these recommendations by issuing new guidance for cyberspace operations budget submissions.",SUPPORTED,SUPPORTED,
+dev_10372,2,"Small Business Cybersecurity Efforts better position defense small businesses to protect their information and networks from cyber threats.",LOW-CONF,LOW-CONF,entity
+dev_10372,3,"DOD officials indicated that the new operational risk assessments will better allow DOD components to relate their cyber vulnerabilities to their mission.",SUPPORTED,SUPPORTED,
+dev_10372,4,"The department has not established a timeframe for implementation or identified a process to hold DOD leaders accountable for implementing these assessments across the department.",SUPPORTED,SUPPORTED,
+dev_12823,0,"President Clinton identified worksite enforcement and employer sanctions as a major component of the Administration's overall strategy to deter illegal immigration.",SUPPORTED,SUPPORTED,
+dev_12823,1,"The Clinton Administration requested, and Congress appropriated, significant funding increases for interior enforcement.",SUPPORTED,SUPPORTED,
+dev_12823,2,"An amendment to INA §274A provides employers with the possibility of a good faith defense against technical or procedural violations.",SUPPORTED,LOW-CONF,entity
+dev_12823,3,"In 2004, estimates by the Pew Hispanic Center said the unauthorized alien population totaled about 10.3 million.",SUPPORTED,SUPPORTED,

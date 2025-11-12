@@ -1,0 +1,9 @@
+{
+  "n_items": 13,
+  "agreement_rate": 0.8461538461538461,
+  "cohen_kappa": 0.4347826086956521,
+  "error_type_counts": {
+    "entity": 2,
+    "discourse": 1
+  }
+}

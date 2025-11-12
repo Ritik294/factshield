@@ -42,8 +42,9 @@ eval_all:
 app:
 	$(PY) -m app.app
 
+
 human_eval:
-	# expects eval/annotations.csv with columns described in src/eval_human.py
+	@echo "Note: expects eval/annotations.csv with columns described in src/eval_human.py"
 	$(PY) -m src.eval_human --csv eval/annotations.csv --out eval/human_eval_summary.json
 
 fact_eval:
