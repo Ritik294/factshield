@@ -1,0 +1,23 @@
+name: factshield
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch>=2.2.0
+      - transformers>=4.44.0
+      - sentence-transformers>=3.0.0
+      - faiss-cpu>=1.7.4
+      - spacy>=3.7.0
+      - nltk>=3.9
+      - networkx>=3.2
+      - pytextrank>=3.2.5
+      - rouge-score>=0.1.2
+      - numpy>=1.26
+      - pandas>=2.2
+      - scikit-learn>=1.4
+      - tqdm>=4.66
+      - gradio>=4.38
+      - datasets>=2.20.0
