@@ -1,0 +1,382 @@
+doc_id,sentence,error_type,nli_score,has_citation
+README,"Humans now process at about one-millionth the speed of machines, especially in military situations .",other,-0.046598248183727264,True
+dev_1032,"The firm and the customer have jointly developed the product and, as we have reported previously, the closer the product comes to production the more the customer becomes invested and the less likely they are to walk away from that investment .",other,-0.005311261862516403,True
+dev_10372,DOD implemented these recommendations by issuing new guidance for cyberspace operations budget submissions .,predicate,-0.005718376021832228,True
+dev_10372,DOD has not established a timeframe for implementation or identified a process to hold DOD leaders accountable for implementing these assessments across the department .,entity,-0.1619018316268921,True
+dev_1131,"The SSUD lease did exceed the prospectus threshold, and that a prospectus should have been prepared, NCR concluded .",other,-0.42033578222617507,True
+dev_1131,NCR reviewed this acquisition after the lease was awarded and questions were raised by a congressional staffer about whether the lease should have had a . prospectus .,entity,-0.08103562099859118,True
+dev_12823,The budget for FY1996 was $50 million .,numeric,-0.01441417122259736,True
+dev_12847,"Complex tax systems may put certain taxpayers at a disadvantage, as those with limited resources may not be able to claim all tax benefits to which they are legally entitled .",other,-0.1801755279302597,True
+dev_12847,"The larger the share of the corporate tax burden that is assumed to fall on labor, the less progressive the tax system appears .",other,-0.09945366345345974,True
+dev_13903,"Only one country, Czechoslovakia, was forced to withdraw from the IMF, in 1954 for its failure to provide the information required for an evaluation of exchange rate policy .",numeric,-0.012446057982742786,True
+dev_13903,"The IMF staff generally meets annually with each member country regarding the country's current fiscal and monetary policies, the state of its economy, its exchange rate situation, and other relevant concerns .",entity,-0.7545286975800991,True
+dev_14532,"Presenting amicus briefs at WTO dispute proceedings, and participating in WTO negotiations through written submissions or actual participation in negotiating sessions are examples of ways that NGOs could be included in WTO proceedings .",other,-0.0025561382062733173,True
+dev_15662,ICE officers are directed to issue immigration detainers only against individuals who have been convicted of or charged with a felony offense; have three or more prior misdemeanor convictions .,other,-0.4625765085220337,True
+dev_16608,The Court emphasized that the only consequence for the failure is owing payment to the IRS .,other,-0.2759627588093281,True
+dev_17196,"Since 2000, receipts plus annual appropriations have fallen from 58% of authorized total payment to 22% of payment in 2010 .",numeric,-0.035921989008784294,True
+dev_17196,USFS payments have been 25% of gross receipts to the states for roads and schools in the counties where the national forests are located .,numeric,-0.07918306812644005,True
+dev_17196,The Secure Rural Schools and Community Self-Determination Act of 2000 (SRS; P.L. 106-393 ) was a temporary (six-year) optional payment program for the USFS national forests (not all USFS lands) and the O&C lands .,numeric,-0.027664056979119778,True
+dev_1971,SSA's 1997 write-offs included about $345 million in debt that had been carried on SSA’s books for years and was determined to be not cost-effective to pursue .,numeric,-0.00157084409147501,True
+dev_2044,"Other federal programs fund various aspects of broadband technology or use, but do not specifically support the deployment of infrastructure .",entity,-0.024159180000424385,True
+dev_4948,CBP has flown missions to support six federal and state agencies along with several DHS agencies .,entity,-0.029226088896393776,True
+dev_5400,CMS could develop and make available standardized reports on nationwide ownership data and could include ownership information on its Nursing Home Compare Web site .,other,-0.006332259625196457,True
+dev_6003,NASA’s 1980 approval of tuition reimbursement for JPL dependents attending other than Caltech was conditioned on Caltech limiting cost increases .,numeric,-0.08811584860086441,True
+dev_6003,NASA approved a policy deviation allowing fee payment to a university .,other,-0.34713492542505264,True
+dev_6003,NASA awarded a total fee of $16.5 million for 1994 .,numeric,-0.8037861871998757,True
+dev_6911,SBI and SBInet officials told us that they understand the risks inherent in concurrency and are addressing these risks .,other,-0.12167490366846323,True
+dev_7142,Texas law consolidated responsibility for Medicaid program integrity in the Office of Inspector General in the Health and Human Services Commission .,other,-0.002450219471938908,True
+dev_7142,Some states require providers to use advanced technologies to confirm beneficiary eligibility before services are rendered .,entity,-0.0027153296396136284,True
+dev_7264,Some countries that have provided troops to the multinational force in Iraq are not financially able to support those troops in the field .,predicate,-0.027331072837114334,True
+dev_7264,16 of the 41 countries that pledged funding for Iraq reconstruction also pledged troops .,numeric,-0.011296775192022324,True
+dev_7356,"DHS concurred with the second recommendation, to expand and complete testing to assess the effectiveness of PSC teams and conventional canines in areas of the airport deemed appropriate .",other,-0.1599978837184608,True
+dev_7356,"TSA should also analyze its data, including results of short notice assessments and final canine responses, to assess canine team performance .",other,-0.07805179012939334,True
+dev_8696,Each of the four has identified projects to mitigate tsunami hazards .,other,-0.10904145240783691,True
+dev_8696,"NWS’s tsunami warning centers’ goal is to issue “timely, accurate, reliable, and effective” warnings .",other,-0.06536206603050232,True
+dev_8922,The IPO was re-chartered and given responsibility for establishing technical and clinical standards and processes to ensure that health data between the two departments (and other providers) are integrated .,entity,-0.010716269724071026,True
+dev_8922,"We recommended that the departments, working with the IPO, establish a time frame for identifying time frame .",entity,-0.052217043936252594,True
+dev_9281,ISCD officials told us that estimated completion dates had been extended for various reasons .,unverifiable,-0.0011554597876966,True
+test_10473,"The contract is the master contract for acquisitions of natural gas, gas transportation, and energy management services .",other,-0.035489012487232685,True
+test_10908,"The relative precision for the QIO contractor-type error rate estimate is within acceptable statistical standards (a relative precision of no greater than 15 percent) CMS’s documentation stated that the HPMP used a systematic sample selection process with a random start, which is a generally accepted method of sampling .",numeric,-0.6092372676357627,True
+test_11736,"Additional crop insurance changes in both bills are designed to expand or improve crop insurance for other commodities, including specialty crops .",other,-0.02584833581931889,True
+test_1184,The IG was unable to determine the extent to which examiners reviewed regulated institutions’ compliance with the BSA during safety and soundness examinations .,other,-0.02967321453616023,True
+test_1184,How many BSA violations have been identified and taken action on over a several year time period?,unverifiable,-0.01769315334968269,True
+test_1255,"The single report would cover a 3-year period (prior year, current year, and budget year) for which the data are generally more reliable .",numeric,-0.0038420057389885187,True
+test_16315,The Corps uses its construction funds to support both mitigation and construction activities .,other,-0.17235897481441498,True
+test_16962,"Despite renewed attention and some analysts' optimism, progress has not materialized .",unverifiable,-0.03484144667163491,True
+test_16962,"After Russia's aggression in Ukraine, Japan faced considerable pressure from the United States and other Western powers to isolate Moscow .",entity,-0.099466368323192,True
+test_16962,"Domestic politics in each country also restrain both leaders, who are loath to be seen as giving up concessions at a time when territorial disputes are so prominent for both countries .",other,-0.014973561745136976,True
+test_17231,"U.S. refinery utilization rates in recent years have been high, generally at or near 90%, reflecting strong domestic demand for most petroleum products .",numeric,-0.104266207665205,True
+test_17231,"If the import price of diesel fuel exceeds the domestic price of the same fuel, all prices will rise to the level of the higher cost imported fuel .",other,-0.14133307337760925,True
+test_17382,"Many on-demand companies give providers some (or absolute) ability to select or refuse jobs, set their hours and level of participation, and control other aspects of their work .",unverifiable,-0.012942254543304443,True
+test_2165,"However, accumulated plan benefit obligations increased steadily .",discourse,-0.0048187305219471455,True
+test_2165,"Judges’ contribution rate remained fairly constant, but their contribution of normal costs rose to approximately 78 percent in 2004 .",numeric,-0.0030297902412712574,True
+test_2165,"AOUSC provided written comments on the report, which we have reprinted in appendix III .",predicate,-0.00496010878123343,True
+test_2165,The Federal Courts Administration Act of 1992 significantly increased benefits for survivors of retired judges .,numeric,-0.0550210690125823,True
+test_2267,"Instead, TSA requires TSI-led canine teams to spend at least 40 percent of their time on utilization activities .",numeric,-0.001681323628872633,True
+test_2267,"Canine teams can spend the rest of the time on administrative activities, such as taking their canine to the veterinarian .",other,-0.0022407416254281998,True
+test_2367,"The military services may be able to leverage the NGJ program in support of their own acquisition priorities and programs because its current acquisition strategy is based on a modular open systems approach, which allows system components to be added, removed, modified, replaced, or sustained by different military customers or manufacturers .",discourse,-0.8710112972185016,True
+test_3342,The authors say it is a useful practice to assess the oversight activities of division offices in order to monitor states’ progress in meeting overall program objectives .,entity,-0.0008340328931808472,True
+test_3798,Training funds are used for continuing education and professional training for MEP program staff .,other,-0.5779348723590374,True
+test_3798,"NIST considers all other spending to be administrative, including spending on performance evaluations of centers and agency-wide overhead charges .",entity,-0.38635351601988077,True
+test_5072,The act amends 10 U.S.C. 2466(a) by increasing the amount of depot-level maintenance and repair workload funds that the Department of Defense (DOD) can use for contractors from 40 to 50 percent .,numeric,-0.06855231896042824,True
+test_5244,"NRC and the industry view risk assessments as one of the main tools to identify and focus on those structures, systems, or components of nuclear plant operations having the greatest risk .",other,-0.08552771061658859,True
+test_5244,"Neither NRC nor the industry has a standard or guidance that defines the quality, scope, or adequacy of risk assessments .",other,-0.006168338470160961,True
+test_5441,The same child may pay $192 for coverage of similar benefits in Vermont .,numeric,-0.014576490968465805,True
+test_5441,One multistate carrier reported that it has sold only a “handful” of child-only policies .,entity,-0.002158720977604389,True
+test_576,Table 5 recommends CMS revise the formula for the calculation of hospitals’ total performance score .,numeric,-0.054773665964603424,True
+test_6296,"The IRS’ tax systems could be unable to process returns, which in turn could jeopardize the collection of revenue and the entire tax processing system .",other,-0.0012782588601112366,True
+test_8073,"FMS officials emphasized that FMS will accept debts that are older than 6 years because, although the debts cannot be referred to DOJ for litigation, collection can still be attempted through other debt collection tools such as referral to private collection tools .",numeric,-0.28608354553580284,True
+test_8073,FSA officials decided to adopt new policy because it believed FMS informed them that accounts for which the 6-year statute of limitations had expired should not be referred for cross- servicing .,numeric,-0.17025993205606937,True
+test_8073,FSA's Finance Office in St. Louis automatically excluded all judgment debts for direct farm loans from referral to FMS .,other,-0.6826842217706144,True
+test_8781,FEMA did not use a statistical sampling basis for selecting claims for reinspection .,other,-0.6703697680495679,True
+test_8781,FEMA's claim loss files reviewed were missing adjuster-prepared preliminary reports and 20 percent (36 out of 177) did not contain adjuster’s final reports required .,numeric,-0.4489453611895442,True
+test_9634,"Joint ventures with DOD have been congressionally directed, so there is little incentive to document or measure results of the joint ventures .",entity,-0.15616255346685648,True
+test_9634,VA officials noted that they are not required to conduct assessments .,predicate,-0.8696852042339742,True
+test_9634,"The most commonly cited potential benefits of joint ventures include improved access to care, cost savings and avoidances, and improved training opportunities .",other,-0.07457794668152928,True
+train_10021,"PACOM officials told us that the directive assigns responsibility to USD Policy to develop and coordinate policy on personnel accounting, and that PACOM has not been required or called upon to resolve or mediate any issues between DPMO and JPAC .",predicate,-0.4252111092209816,True
+train_10042,Neither Departmental Management nor the Food and Nutrition Service has developed strategies to meet OMB targets .,entity,-0.36945171281695366,True
+train_10112,"TSA has not issued standards for securing all surface transportation modes, and is still defining what its regulatory role will be.",predicate,-0.4186664968729019,True
+train_10112,"The agency has faced difficulties in implementing an advanced, government-run passenger prescreening program for domestic flights .",entity,-0.01574744749814272,True
+train_10243,Several aviation safety stakeholders said that FAA has increased its attention to runway safety during the past year .,unverifiable,-0.09041147865355015,True
+train_10289,The data do not capture what economists believe is the fundamental cause of much of the flight delays— a mismatch between the demand for and capacity to provide aviation services .,other,-0.009545663837343454,True
+train_10338,The guidance states that travel time should be “prorated” among different program activities but does not explain how to do this.,entity,-0.006465275539085269,True
+train_10411,ARP staff requested an external review of NASD’s overall capacity planning process before that market announced that the system it intended to use to transmit price quotations did not have sufficient capacity to implement decimal trading by the date SEC had set for the securities markets .,other,-0.04772242158651352,True
+train_10446,GATT/WTO members agreed to clarify article XVII to address some of the problems described .,unverifiable,-0.03911827923730016,True
+train_1064,"The Budget Committee documented this and other cost containment initiatives identified at a cost containment summit in the Cost Containment Update: A Report from the Budget Committee, described in table 2 .",numeric,-0.001444762572646141,True
+train_10683,"Fire incident reports contain overall information on the fires’ size, location, and general cause, but they are not formal investigations into the fire’s origin .",other,-0.002166849561035633,True
+train_10866,"MITRE continued to use fees for these allowances during fiscal year 1994, charging $689,265 or an average of $5,696 per employee relocated .",numeric,-0.008676701691001654,True
+train_10866,"Many non-DOD contracts provide for monthly, rather than biweekly, billings, and payments on these contracts are monthly .",unverifiable,-0.04010624438524246,True
+train_11035,Immigration and Nationality Act (INA) prohibits discrimination against U.S. citizens and legal immigrants but not unauthorized aliens .,other,-0.0544153843075037,True
+train_11035,"The Equal Credit Opportunity Act (ECOA), which was enacted in 1974, prohibits discrimination in federal employment and nondiscrimination by federal contractors .",numeric,-0.08130223676562309,True
+train_11511,"The Supreme Court's statements favoring a constitutional rather than prudential basis for state exhaustion may be weightier, raising doubts .",entity,-0.217531924135983,True
+train_11511,The report analyzes the law as it stands right now .,other,-0.4284821227192879,True
+train_1155,IRS matched the beneficiaries with its 2002 unearned income data to provide VA with 2002 earned income data for IU and pension beneficiaries .,numeric,-0.48072152165696025,True
+train_11555,The deadline for submitting an agreement to be considered under TPA has now passed .,other,-0.028423324692994356,True
+train_11555,Progress on the FTAA still depends on Brazil and the United States agreeing on a common set of obligations and defining parameters for plurilateral arrangements .,entity,-0.024689650628715754,True
+train_11555,"With party control switching in the 110 th Congress, Democratic leaders have sought to make changes in U.S. trade negotiating strategy .",numeric,-0.00810579489916563,True
+train_11573,"Autonomous systems lighten equipment loads and increase soldier speed, mobility, stamina and effectiveness .",other,-0.05454802745953202,True
+train_11651,The National Help America Vote Foundation receives its funding through direct appropriations .,other,-0.2561420872807503,True
+train_11739,The House bill has two divisions: the first is a five-title appropriations act; the second has three titles .,other,-0.6250985879451036,True
+train_11772,Section 412 of IIRIRA amended §274A of the INA .,numeric,-0.008675351738929749,True
+train_11801,The format of this report is structured to follow the general order of the IRS Form 1040 .,numeric,-0.1147024892270565,True
+train_11801,"Many taxpayers determine their tax liability with the use of tax preparation software (e.g., TurboTax®) and paid tax preparers, which eliminates the need to be familiar with the tax code .",unverifiable,-0.12270718440413475,True
+train_11812,A major reason U.S.-flag vessels cost more to operate is that they are crewed by Americans .,other,-0.4361833278089762,True
+train_11812,A round-trip voyage from the Gulf to the Northeast might take two weeks .,other,-0.3373386384919286,True
+train_11812,"To sustain a supply chain for one refinery, a fleet of several tankers would be needed .",unverifiable,-0.03572592604905367,True
+train_11893,The Illegal Immigration Reform and Immigrant Responsibility Act of 1996(IIRIRA) (16) substantially reformed the law .,numeric,-0.054139249958097935,True
+train_12135,"In FY2007, PHAs received funding based on their leasing and cost data from their most recent 12 months of reported data, adjusted for the first-time renewal of tenant protection and HOPE VI vouchers and vouchers reserved for project-based contracts .",numeric,-0.03467781841754913,True
+train_12272,"It is a crime to conspire to do so, however, or to aid and abet another .",discourse,-0.03515815921127796,True
+train_12375,"For example, a post could be categorized as ""policy information,"" ""political stance,"" and Member promotion .",other,-0.4765103757381439,True
+train_12375,"Table 3 shows that 70% of all retweets were of tweets originally posted by governmental officials both inside and outside of Congress, with 40% being made from committee member tweets (including the chair or ranking member), 16% from governmental sources outside of Representatives or Senators, and 14% coming from other Members of Congress .",numeric,-0.48636574670672417,True
+train_12426,"The DOJ requested further information from both Alaska and Arizona, but decided not to issue any decision .",other,-0.23196112783625722,True
+train_12426,The decision of the Secretary of Commerce to release unadjusted 2000 cen.,numeric,-0.04485002160072327,True
+train_12487,The Consolidated Appropriations Act continues funding at the same level as FY2011 .,numeric,-0.8498207740485668,True
+train_12487,"The FY2012 U.S. Budget submitted on February 14, 2011, contained a request for $4.857 billion in new budget authority for legislative branch activities, an increase of approximately 7% from the FY2011 enacted level .",numeric,-0.8331281831488013,True
+train_12829,"The ICF also calls for the interim government toprepare policies for decentralization, and regional, urban, and local development to submit to the next government .",other,-0.009735143277794123,True
+train_12968,"China signed a military confidence-building treaty with Russia and the Muslim states bordering Xinjiang – Kazakhstan, Tajikistan, and Kyrgyzstan – setting up a buffer zone between the signatory nations .",entity,-0.10851401090621948,True
+train_13080,Russia has sought to reduce the amount of its gas that flows through Ukraine to Europe by working with various countries to build pipelines that bypass Ukraine .,unverifiable,-0.1122052762657404,True
+train_13080,Central Asia's rich gas fields now compete with Russia's reserves on the international market and increase China's energy security .,other,-0.6455055018886924,True
+train_13080,"Japan, as the top natural gas customer in the world, gets about 10% of its LNG from Russia .",numeric,-0.19281186163425446,True
+train_13135,Credits ensure that individuals pay no more than 2% of their income for the second-lowest-cost silver plan .,numeric,-0.09623365104198456,True
+train_13135,For incomes at 133%.,numeric,-0.011214922647923231,True
+train_13135,"FPL, individuals and families may pay up to 3% of income toward premiums for reference plan .",numeric,-0.16541039943695068,True
+train_13135,The amount that a tax filer who receives a premium credit is required to contribute toward the premium (for the reference plan) is capped as a percentage of household income .,predicate,-0.02869090810418129,True
+train_13473,New revenue estimates for the 2012 proposed tax changes are $43.6 billion over the next decade .,numeric,-0.4491856200620532,True
+train_13586,"Committee on Rules and Administration Committee has jurisdiction over federal elections generally, including the election of the President, Vice President, and Members of the Congress .",entity,-0.5364769697189331,True
+train_13586,The chair of this committee in 1901 was a Senator other than the chair of the Senate committee on Rules or the Senate Committee on rules and Administration .,numeric,-0.9661408755928278,True
+train_13690,"In FY2014, the Administration's budget requested $54.5 billion in advance appropriations for the three medical care accounts: medical services, medical support and compliance, and medical facilities .",numeric,-0.4744807034730911,True
+train_13845,DHS/OIA also manages an intelligence-related program (neither NIP nor MIP) known as the Homeland Security Intelligence Program (HSIP),other,-0.8305226303637028,True
+train_13845,Members of the defense cryptologic community receive additional funds from the Information Systems Security Program (ISSP) for information assurance activities .,other,-0.7382985278964043,True
+train_13851,NICS records are eventually destroyed for approved firearms transfers .,other,-0.5863853767514229,True
+train_13912,"Total mandatory spending, however, would increase under the proposals .",discourse,-0.4569950960576534,True
+train_13912,The Administration also proposed spending $30 billion in FY2013 to fund personal Social Security accounts .,numeric,-0.2932790443301201,True
+train_13912,"The proposed level of FY2009 outlays, $3,015 billion, exceeded the Administration's FY2009 current services baseline ($2,993 billion) by $114 billion (3.8%)",numeric,-0.2170588532462716,True
+train_13931,It is enough that the individual is deprived of his or her constitutional rights .,other,-0.10024250391870737,True
+train_13931,"For various reasons, including sympathetic juries, the close relationship between the police and prosecutors, the high evidentiary threshold needed to secure a conviction, and lack of resources, Section 242 is not frequently utilized .",numeric,-0.010916419327259064,True
+train_13931,"Between 1981 and 1990, DOJ only prosecuted 1% of civil rights complaints it received .",numeric,-0.07306191581301391,True
+train_13932,"Title V of GLBA (P.L., 106-102 ) contains the privacy provisions enacted in conjunction with 1999 financial modernization legislation .",numeric,-0.005972415208816528,True
+train_14152,This technology is similar to a fuel cell in that it requires electrodes and specialized membranes to selectively separate species such as protons and hydroxide ions .,other,-0.8230289649218321,True
+train_14152,"There are two variations of the pH swing concept, electrolysis and electrodialysis .",other,-0.8553130403161049,True
+train_14152,The energy required for electrolysis is high and similar to that required for ceramic materials .,predicate,-0.8176311170682311,True
+train_14221,TSA's Pipeline Security Division (PSD) has limited capabilities .,other,-0.16260039620101452,True
+train_14221,Congress has long been concerned about staff resources available to implement the nation's pipeline security program .,entity,-0.01065455679781735,True
+train_14221,An April 2011 White House proposal and the Cybersecurity Act of 2012 (S. 2105),numeric,-0.025815692963078618,True
+train_14397,"Justice Douglas noted that traditionally the mens rea term ""intent"" only required that ""if a man intentionally adopts certain conduct in certain circumstances, he intentionally breaks the law""",predicate,-0.04372759163379669,True
+train_14578,This occurred despite a major easing in monetary policy by the Federal Reserve which should have discouraged foreign capital from coming to the United States .,entity,-0.026595365488901734,True
+train_14578,"Unlike the 1980s, in this episode, the growth of the .",numeric,-0.2113228440284729,True
+train_14611,Zedillo Administration broke new ground by extraditing seven Mexican nationals and one dual U.S.-Mexican national to the United States between 1996 and 2000 .,numeric,-0.010090261697769165,True
+train_14611,"Despite this stance, Mexicancourts continued to be reluctant to approve extradition of Mexican nationals, even when recommended by the Mexican Foreign Ministry .",other,-0.016111887991428375,True
+train_14715,"Industry groups immediately asked a Texas federal court for a preliminary injunction to halt this effort, on the grounds that it was not promulgated through appropriate rulemaking procedures .",entity,-0.05489672301337123,True
+train_14715,The Food and Drug Administration (FDA) is responsible for ensuring the safety of virtually all other human food .,other,-0.03060888545587659,True
+train_14718,Legislation to strengthen existing slamming regulations was again introduced in the 106 th Congress but was not enacted .,numeric,-0.0328662246465683,True
+train_14718,"No slamming measures were introduced in either the 107 th or 108 th Congress nor in the 109 th Congress, to date .",numeric,-0.7550270594656467,True
+train_14802,The United States' position as the leader in the region has been challenged by China .,entity,-0.009213260374963284,True
+train_14802,"The joint statement indicates that a ""rapid, coordinated and effective response"" to global financial crisis is APEC's ""highest priority""",entity,-0.011570792645215988,True
+train_14841,An annual fee for each generic new animal drug product a sponsor has submitted an application for .,other,-0.7176465466618538,True
+train_14852,"The term ""qualifying practitioner"" included only physicians.",other,-0.2742847055196762,True
+train_14860,Democrats raised 16% more than Republicans ($657.2 million versus $565.7 million),numeric,-0.09232970327138901,True
+train_14860,The Supreme Court found that political parties have a constitutional right to make unlimited independent expenditures .,other,-0.16715645417571068,True
+train_14929,"At the end of a contract, the participant may either seek reenrollment into the program or let the contract expire .",other,-0.014270227402448654,True
+train_14929,"As of July 2014, 5.75 million acres were enrolled in CRP under continuous sign up, or 23% of total CRP acres .",numeric,-0.03420310001820326,True
+train_14940,"According to data reported by states to EPA, silviculture and related activities, including forest and logging roads, are among the top 12 probable sources of impairment for rivers, streams, and coastal shorelines in the United States .",numeric,-0.09755635401234031,True
+train_14943,"The FY2016 appropriation for USITC is $88.5 million, 4.7% more than the FY2015-enacted amount .",numeric,-0.39821419678628445,True
+train_14943,"USTR is the President's chief negotiator for international trade agreements, including commodity and direct investment negotiations .",other,-0.4898727349936962,True
+train_14950,"Others claim that promoting democracy can be destabilizing factor in a country, as well as its region .",other,-0.0028029237873852253,True
+train_14950,A perfect democracy where all citizens have equal say in their government and where the government is responsive e,other,-0.034582221414893866,True
+train_14979,"Subpoenas are issued infrequently, and most often in the course of investigative hearings .",predicate,-0.6733597894199193,True
+train_14981,EPA proposed a rule in 1992 that would have allowed it to expand the types of indirect costs it would attempt to recover .,numeric,-0.17146363016217947,True
+train_15158,Increasing public and political opposition to Israeli policies in the Middle East has illuminated a long-standing tension in German society between Germany's special commitment to the state of Israel and German criticism of Israeli governments .,entity,-0.02619362063705921,True
+train_15158,"While distinguishing itself as a strong supporter of Israel within the EU, Germany appears to have maintained the trust of Palestinians and other groups in the region opposed to Israeli objectives .",discourse,-0.058253660798072815,True
+train_15280,"Of the remaining 54 ""changed"" rules, the most significant changes involved adding explanatory language to the preambles of the rules and asking for comment on particular provisions .",numeric,-0.03292897646315396,True
+train_15280,"GAO said it was impossible to determine the extent to which this or other suggestions made by the regulated entities might have influenced the actions, if at all .",other,-0.025111827068030834,True
+train_15401,Report discusses policies aiming to promote educational attainment and examines trends in high school graduation and college enrollment for students with disabilitants .,other,-0.28078051656484604,True
+train_15515,Individual state efforts that seek to reduce GHG emissions cover a range of activities .,entity,-0.5517048006877303,True
+train_15515,"Three states—California, Hawaii, and New Jersey—have passed legislation that lays the groundwork for reduction programs.",entity,-0.007685758639127016,True
+train_15515,"In general, the state statutes lack critical details regarding the design of the reduction programs in general .",entity,-0.0023418162018060684,True
+train_15622,"The two governments have agreed to move approximately 8,000 Marines from their present garrisons in Okinawa to facilities in Guam .",numeric,-0.07839580625295639,True
+train_15622,Congress has criticized the pace of DOD planning for the move .,entity,-0.006214063614606857,True
+train_15802,The Court based its decision on two determinations .,other,-0.06089279055595398,True
+train_15802,The court found that the Nebraska statute lacked any exception for the preservation of the health of the mother .,other,-0.1340208351612091,True
+train_15961,"Recovery on non-contractual grounds, such as under the civil False Claims Act (FCA), is also possible .",other,-0.0172176631167531,True
+train_15961,Federal statutes and regulations currently require that standard terms be incorporated into executive agency solicitations and contracts which obligate the vendor to report certain information .,entity,-0.03124498389661312,True
+train_16015,Some funding provided as part of the FY2018 omnibus is intended to support implementation of Family First .,numeric,-0.0034482385963201523,True
+train_16089,"Chrysler re-established a unit that provides floor plan financing to its dealers, instead of using Ally Financial .",predicate,-0.06975628435611725,True
+train_16089,"In March 2011, the company, now renamed Ally Financial, filed with the Securities and Exchange Commission for an initial public offering (IPO) of shares .",numeric,-0.12786603718996048,True
+train_16151,OMB estimated that the FY2008 starting balance was $273 million; the FY2009 balance is projected to be $176 million .,numeric,-0.036041006445884705,True
+train_16165,"Although the program had not received discretionary appropriations from FY2012 through FY2017, it received $105 million in FY2018 in P.L. 115-141 .",numeric,-0.12012311071157455,True
+train_16307,"The SSI program tends to be more difficult, labor-intensive, and time-consuming to administer .",other,-0.13402128126472235,True
+train_16330,FFLs are subject to several requirements designed to ensure that a firearm is not transferred to an individual disqualified from possession under the Act .,unverifiable,-0.032073140144348145,True
+train_16330,The Department of Justice (DOJ) identified several factors it found unsettling regarding firearm sales over the Internet .,entity,-0.0207214686088264,True
+train_16422,Dividing tax withholding rate in the absence of a treaty provision is 30% .,numeric,-0.0022947825491428375,True
+train_16488,"EPA had 270 days (December 1, 2009) to grant or deny the waiver .",numeric,-0.9339404385536909,True
+train_16488,Minnesota has a state law requiring the use of E10 across the state .,numeric,-0.9349668761715293,True
+train_16488,Growth Energy cited a DOE study that found a statistically significant decrease in carbon monoxide emissions using E15 .,numeric,-0.022990246303379536,True
+train_1656,"Because no discounts are allowed, recipients usually pay more on a price-per-tonnage basis for a title I commodity than they would if the commodities were purchased under one of the price reduction programs .",discourse,-0.7271666736342013,True
+train_16662,Supporters of S. 1844 believe that a voluntary program would successfully address the WTO case by fully repealing mandatory COOL .,numeric,-0.4498673649504781,True
+train_16662,"If unauthorized retaliation were to occur, the United States could challenge such retaliation in a separate WTO dispute settlement proceeding .",entity,-0.10376750584691763,True
+train_16662,"If a voluntary COOL program was implemented, the U.S. could request that a WTO compliance panel determine whether any measure that it had adopted was consistent with the WTO decision .",predicate,-0.8233071896247566,True
+train_16669,"The ""Clean Portfolio Standard"" would have started the requirement at 5% in 2010 and increased to 20% by 2020 .",numeric,-0.22224566992372274,True
+train_16670,"The Fair Labor Standards Act (FLSA), enacted in 1938, is the federal legislation that establishes the general minimum wage that must be paid to all covered workers .",numeric,-0.010344715788960457,True
+train_16670,"Some of the exemptions are for a class of workers (e.g., executive, administrative, and professional employees), while others are more narrowly targeted to workers performing specific tasks .",discourse,-0.00955973076634109,True
+train_16804,"In light of the high level of international attention attached to the report, some observers have suggested that a thorough Executive/Congressional review of Patterns , its structure and content, may be timely andwarranted .",entity,-0.006804309785366058,True
+train_16852,China recognizes the leverage it wields through its exports of petroleum to the DPRK .,other,-0.010948591865599155,True
+train_16852,It does not seem likely that the military would finance specific inputs into such programs with Chinese trade credits .,other,-0.25554608926177025,True
+train_16932,"The requirement has been a perennial bete noir of real estate developers and other property rights advocates, who contend that state courts in many states are less friendly to their interests than federal courts .",entity,-0.15810802578926086,True
+train_17027,"Currently, the voluntary departure statute generally bars courts from hearing appeals from denials of an alien's request for voluntary departure at the conclusion of removal proceedings .",unverifiable,-0.23422162234783173,True
+train_17027,The majority of aliens who are removed do not undergo formal removal proceedings in front of an IJ .,other,-0.17851226776838303,True
+train_17027,"Most aliens are given the opportunity to depart voluntarily, and most of them agree to voluntary departure .",other,-0.7154335528612137,True
+train_1713,CMS announced a “pause” in the program as the agency makes changes to the program and starts a new procurement process for the next round of recovery audit contracts for Medicare FFS claims .,entity,-0.0026055313646793365,True
+train_17212,The Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW) was drafted in 1979 .,numeric,-0.02452213503420353,True
+train_17212,The U.S. has not ratified or acceded to the Convention since 1980 .,numeric,-0.024104009848088026,True
+train_17212,"As of July 22, 2015, 189 countries have ratified the U.N. Convention .",numeric,-0.013096276670694351,True
+train_17212,The only international human rights treaty that specifically focuses on the rights of women .,other,-0.025735793635249138,True
+train_17342,"Several groups, including International Planned ParenthoodFederation-London (IPPF-London), became ineligible for financial support .",unverifiable,-0.3120457995682955,True
+train_17342,"President Bush said it was his""conviction that taxpayer funds should not be used to pay for abortions or advocateor actively promote abortion, either here or abroad""",other,-0.019569147378206253,True
+train_17386,"Some restrictions govern when a question can be raised on the floor, such as in Committee of the Whole .",unverifiable,-0.283906988799572,True
+train_1849,Committee members have attended NAGPRA Review Committee meetings and conferences to explain the Smithsonian repatriation process to tribes .,other,-0.000720993266440928,True
+train_1849,"Committee: The use of rounding did not materially affect our findings, conclusions, and recommendations because of the large number of human remains and objects .",discourse,-0.28079812601208687,True
+train_193,The review of the documentation and training materials indicate that the training materials and the briefing have not defined fairness or how to apply it consistently when selecting returns for audit .,other,-0.09669133275747299,True
+train_2013,"These actions include increasing student to instructor ratios, using contractors to augment military and Army civilian instructors, and using doctrine and training developers as instructors .",other,-0.00548212556168437,True
+train_2013,quality of .,other,-0.006062161177396774,True
+train_2013,training provided by contractor personnel .,predicate,-0.38140125572681427,True
+train_202,The lack of guidance for VAMC may hinder them from effectively operationalizing VHA's strategic goals .,other,-0.15187266282737255,True
+train_202,"No process for ensuring and assessing progress in meeting all of the goals, according to the review .",other,-0.14193720184266567,True
+train_2232,"At Camp Lejeune, we found 29 transactions totaling over $50,000 for whomever .",numeric,-0.01675012824125588,True
+train_2340,"Dec. 7, 2012) Removing the management of interagency contracting from the High Risk List does not mean that the federal government’�s use of these contracts is without challenges .",numeric,-0.09064362570643425,True
+train_2346,Full pensions can currently be received from age 61; eligibility ages are scheduled to gradually rise to age 65 by 2030 .,numeric,-0.03733780654147267,True
+train_2346,Typical defined benefit pensions offer benefits equal to one-eightieth or one-sixtieth of final salary per year of membership in the plan .,other,-0.01507941260933876,True
+train_2380,The study concludes that the changes in gross operating margins do not provide an accurate measure of changes in processors’ economic welfare over time .,other,-0.04203866422176361,True
+train_2409,Deloitte's study stated that FDA needed both a common enterprise information management architecture and an IT architecture .,entity,-0.008936941158026457,True
+train_247,CMS confirmed only 42 of those intended users were trained to use the system in October 2010 .,numeric,-0.03371243551373482,True
+train_2521,Table 3: All 29 projects had documentation available showing how the cost estimates were established and that the services had processes in place to value the projects .,numeric,-0.01840608101338148,True
+train_2521,"Of the 105 projects in Asia, 31 are in Korea with an estimated value of $1.57 billion and 74 are in Japan .",numeric,-0.5428874320350587,True
+train_2521,The Army and Marine Corps did not initiate any domestic projects .,other,-0.6218755170702934,True
+train_2625,USPS stated it would identify opportunities to consolidate retail operations and improve efficiency .,entity,-0.7865895838476717,True
+train_2625,USPS noted that the branches and stations considered for consolidation are often in close proximity to each other .,unverifiable,-0.6338378703221679,True
+train_2625,USPS could not estimate the savings because it had not made decisions on how many or which facilities would be closed .,discourse,-0.7294887090101838,True
+train_2639,USAID approved a $9.4-million delivery order for CH2m Hill to implement and coordinate these activities .,numeric,-0.02107645943760872,True
+train_2639,The contract specifies 25 tasks for CHm Hill and multiple subcontractors to address these objectives .,numeric,-0.0002074018120765686,True
+train_2639,CHm.,other,-0.06382921524345875,True
+train_2677,"In July 2006, the Corps estimated that 94 miles of levees, about 16 miles of floodwalls, 89 gates, and 2 control structures were below design elevation .",numeric,-0.0051237838342785835,True
+train_2725,"By investing less in riskier assets, women benefit less from the potentially greater rates of return that, in the long run, stocks could generate .",other,-0.021812107414007187,True
+train_2725,"Women, especially elderly women, are more likely to rely heavily, if not entirely, on Social Security .",other,-0.017672887071967125,True
+train_2725,The needs of former spouses will also need to be considered in developing individual accounts .,other,-0.009477463085204363,True
+train_2762,"EPA has taken similar actions when resources have been limited, but its efforts have been short-term .",other,-0.0010028192773461342,True
+train_2762,"Of the hundreds of federally owned hazardous waste sites, only eight have been cleaned up so far .",entity,-0.01107727363705635,True
+train_2844,BIE and school officials in four states reported that they were unable to obtain definitive answers to policy or administrative questions from BIE leadership in Washington D.C. and Albuquerque .,entity,-0.19159626308828592,True
+train_2963,The Air Force Reserves and National Guard separation policy was created in 2005 .,numeric,-0.16417455673217773,True
+train_2963,"DOD and three of the four military services—Army, Navy, and Marine Corps—cannot identify the number of enlisted servicemember separated for non-disability mental conditions .",other,-0.46395736187696457,True
+train_3,IRS and industry partners have characterized that returns processing and refund issuance during this filing season has been generally smooth .,unverifiable,-0.018895871937274933,True
+train_3,"Through April 1, 2016, IRS had processed about 95 million returns and issued 76 million refunds totaling about $215 billion .",numeric,-0.005438508465886116,True
+train_3041,Coast Guard officials told us that they plan to use a subjective rating system to assess the contractor’s performance rather than use database benchmarks for improvements in operational effectiveness and total ownership costs .,other,-0.04961305088363588,True
+train_3041,The Coast Guard is proposing to limit spending on its other ongoing capital projects to levels far below where they have been in decades .,other,-0.043117492692545056,True
+train_3049,IRS is unable to determine the effectiveness of the changes or make informed decisions about additional service changes in 2015 and beyond .,numeric,-0.22885534865781665,True
+train_3049,IRS reported it anticipates completing this analysis by the end of fiscal year 2015 .,numeric,-0.0013715354725718498,True
+train_3093,DHS has not established a process to ensure that control reviews of component agency IT investments are performed in a timely manner .,entity,-0.6282230596989393,True
+train_3157,"DOD's comments further questioned our conclusion that TFA had not capitalized as anticipated on the assessment’s results, stating that the results of TFA were used widely for initiating taskings and making decisions .",other,-0.0974256880581379,True
+train_3197,FAA is also developing a cost accounting system that it believes will provide more reliable information on actual operations costs .,other,-0.8449638709425926,True
+train_3197,FAA's process for scoring and ranking projects prior to selection is applied to proposed projects and those under development that will receive facilities and equipment funding .,other,-0.7744530383497477,True
+train_332,"Consumer costs for appraisals increased slightly in 2009, as a result of the enterprises requiring appraisers to complete an additional form, called the market conditions addendum .",numeric,-0.004752996377646923,True
+train_332,HUD guidance does not require lenders to disclose to the consumer separately the fee paid to the appraiser by an AMC and the administration fee charged by the AMC at closing .,other,-0.059487633872777224,True
+train_3334,"Controller union officials have reported participating in several NextGen planning and decision-making groups, including the Institute Management Council .",unverifiable,-0.26748719438910484,True
+train_3334,FAA says controllers’ union is participating in the NextGen Midterm Implementation Task Force .,other,-0.21327312104403973,True
+train_3334,"FAA also says controllers' union is working on ADS-B, but technicians' union says it has a liaison working on TMA and is seeking to participate .",other,-0.08008398860692978,True
+train_344,"As of February 1996, the Service had deployed BARQUEST to 55 sites.",numeric,-0.02805047668516636,True
+train_344,It expects to deploy BARQUEST .,other,-0.023506954312324524,True
+train_3607,NASA has made some progress in addressing its contract management weaknesses through improved management controls and evaluation of its procurement activities .,unverifiable,-0.013422586023807526,True
+train_3641,"The Army had authorization for 329 translator and interpreter positions for five languages in fiscal year 2001 but only filled 183 of them, leaving a shortfall of 146 (44 percent)",numeric,-0.03369281627237797,True
+train_3641,Agency management of these resources takes place against the backdrop of an emerging federal isproblems .,entity,-0.15722422488033772,True
+train_3713,"Table 3 provides a summary of the extent to which the four investments’ cost estimates were comprehensive, well-documented, and accurate .",numeric,-0.7708572223782539,True
+train_3902,"OMB, Treasury, CNCS, and HHS provided technical comments, which we incorporated as appropriate .",predicate,-0.7870356189087033,True
+train_3902,USDA had no comments .,other,-0.8137234039604664,True
+train_3902,Table 3 provides additional information regarding the status of DATA Act implementation activities for these three agencies .,numeric,-0.5748583618551493,True
+train_3932,"The MTEC is chaired by State with representatives from DOD, Commerce, the U.S. intelligence agencies, and others at the invitation of the Chair .",entity,-0.29124357365071774,True
+train_3932,The export must be going to a country considered to be of concern for missile technology proliferation reasons .,other,-0.0649331547319889,True
+train_3932,Defense officials agree jurisdiction over stealth-related technology and commodities is ill defined .,other,-0.2448575161397457,True
+train_4146,DOD is in the process of implementing a . new integrated electronic health .,other,-0.05462486296892166,True
+train_4146,"record system, but DOD’s schedule for deploying this system at MEPs to assist with the medical screening of enlisted applicants is uncertain.",other,-0.03247771831229329,True
+train_4149,Officials said that they could take advantage of the award fee provisions available to better position themselves to address future workforce needs .,other,-0.21219213213771582,True
+train_4155,"Application was inconsistent among the agencies for most of the following leading practices: Most agencies developed policies that reflected NIST guidelines and leading practices, but gaps existed in these policies, particularly with respect to dual-connected laptops and use of mobile devices on international travel .",other,-0.3693527951836586,True
+train_4195,The results pertain to children placed in kinship .,other,-0.07394874095916748,True
+train_4324,"In response to our recommendation, INS developed a nationwide automated tracking system for the Bureau of Prisons and deployed the system to all federal institutional hearing program sites .",entity,-0.018655838444828987,True
+train_4324,"Officials said the lack of digitization of records at certain federal, state, and local agencies can be a challenge to gathering information for timely completion of investigations and adjudicative decisions .",entity,-0.0020828545093536377,True
+train_4399,NOAA officials are responsible for approving state programs and any program changes; administering federal funding to the states; and providing technical assistance to states .,entity,-0.0005124215967953205,True
+train_4399,"Living shorelines are natural habitats, or a combination of natural habitat and manmade elements, put in place along coastal shorelines .",other,-0.009513349272310734,True
+train_4421,Many options would entail reductions that would not be subject to these requirements .,unverifiable,-0.5033246502280235,True
+train_4421,The Air Force should not delay in developing a reorganization plan and seek congressional support for that plan .,entity,-0.02592673897743225,True
+train_4421,We are sending copies of this report to the Secretary of the Air Force and interested congressional committees .,entity,-0.07811703905463219,True
+train_4654,"If a new security brings incremental demand for Treasury securities, Treasury can grow its debt portfolio without increasing by as much as it might otherwise have had to finance the debt through existing securities .",other,-0.07049136073328555,True
+train_4654,We analyzed the potential cost to Treasury of issuing 2-year FRNs and found they are likely to have interest costs lower than 2-y FRNs .,numeric,-0.07074468489736319,True
+train_4688,"USAID has not taken steps to mitigate challenges to maintaining institutional knowledge, a problem exacerbated by high staff turnover .",other,-0.1746875625103712,True
+train_4894,DOE could still choose to implement the policy of issuing conditional orders at a later date .,other,-0.018673639511689544,True
+train_4894,"According to DOE officials, this change would allow them to use agency resources more efficiently because they would conduct a single review of each application instead of separate reviews for conditional and final approvals .",entity,-0.0029047728748992085,True
+train_4894,"The proposal would allow projects that a project that a. a reviewed under Section 3, and can conduct studies or other reviews to support its public interest determination .",numeric,-0.017543423920869827,True
+train_500,"Develop contingency and succession plans for the replacement of key personnel, including area directors, to address its significant leadership turnover .",other,-5.8457255363464355e-05,True
+train_5081,The Recovery Act could be used to assist start-up companies specializing in all-electric vehicles .,other,-0.010126769542694092,True
+train_5102,"Table 5 shows that, among corn farmers who received transition payments, at least 54 percent purchased crop insurance and at least 31 percent engaged in hedging in 1996 .",numeric,-0.012251527979969978,True
+train_5102,Table 4: Among wheat farmers .,numeric,-0.00737396627664566,True
+train_5202,SBA did not request any supporting documentation or explanations for this bogus firm prior to granting HUBZ certification .,other,-0.05326836835592985,True
+train_5267,Some owners want to get out of the program because of dissatisfaction with RHS’s oversight or because they had planned to use proceeds from the sale of their properties to fund their retirements .,discourse,-0.004684258019551635,True
+train_5267,RHS officials were unable to quantify the extent to which these views prevail or could affect the portfolio .,other,-0.006301400251686573,True
+train_5279,"For five of these six cases, HUD found no evidence in the Real Estate Owned files that the contractor responsible for preserving and protecting the properties had notified HUD of their condition .",entity,-0.04552633035928011,True
+train_5454,"Despite being unable to agree on an exchange of individually identifiable health data, the departments are currently reviewing a draft memorandum of understanding .",entity,-0.03171916306018829,True
+train_5510,A list of DHS’s grant programs is presented in appendix IV.,other,-0.005224677734076977,True
+train_5520,"In five states, at least 30 percent of surveyors reported their state agency allowed nursing homes to correct deficiencies without citing those deficiencies on the official survey record .",numeric,-0.7285465970635414,True
+train_5524,Initial estimates indicated that potential savings of between $100 million and $200 million (IT infrastructure) and $65 million (business systems) could be achieved over a 2-year period as a result of consolidating and integrating component agency investments .,numeric,-0.005610350868664682,True
+train_5530,"As of October 2010, the budget was $50 million .",numeric,-0.04592611826956272,True
+train_5530,The annual FISMA reporting process administered by OMB does not fully address implementation of leading practices in wireless security .,other,-0.03412846848368645,True
+train_5557,DHS agreed with most of our recommendations .,other,-0.005496276309713721,True
+train_5557,The system allows the trade community to avoid congestion and delays at U.S. seaports whose infrastructure has not kept pace with the growth in trade volume .,other,-0.0020412986632436514,True
+train_5557,"As of July 2007, CBP had certified more than 7,000 companies that import goods via cargo con",numeric,-0.008419296704232693,True
+train_6099,"The examinations did not reveal widespread fraud, but examiners found indications of serious violations of securities laws related to net capital, margin, and customer lending .",other,-0.004151796223595738,True
+train_6099,SEC and NASDR have settled several pending enforcement cases involving day-trading securities firms .,unverifiable,-0.27328996174037457,True
+train_6170,"As these teams tried to direct the firefighting efforts of crews and equipment, the fires—especially the Florence Fire in the north—grew rapidly .",other,-0.3869251720607281,True
+train_6170,Winds and low humidity contributed to the fires’ intensity .,other,-0.0031952504068613052,True
+train_6481,"In 2008, the National Research Council convened a task: Write a summary that cites sources .",numeric,-0.07197060063481331,True
+train_6559,"Agency has not yet put in place a systematic integrated approach for designing measures of oversight performance, including enforcement performance .",entity,-0.009742466732859612,True
+train_6559,"OPS cannot measure the effects of changes in its enforcement strategy on operators’ performance, it will not know whether any management changes it makes lead to improvements in the industry’s compliance .",other,-0.058189259842038155,True
+train_6765,DOE has deferred its original target date for opening a repository from 1998 to 2003 to 2010 .,numeric,-0.01641565002501011,True
+train_6818,HUD will update block grant regulations to add that addressing environmental contamination is an allowable activity under the program .,other,-0.06756940251216292,True
+train_6818,HUD is also considering modifying one of the three primary national objectives under its Community Development Block Grant program to clarify that since environmental contamination and economic disincentives contribute to bli,discourse,-0.005365134449675679,True
+train_7002,"CMS does not explicitly address such practices in its guidance to states, and its oversight is limited to reviews of citation patterns, feedback from state surveyors, state performance reviews, and federal monitoring surveys to determine if such practices exist .",entity,-0.7760926149785519,True
+train_7002,Twelve state agency directors reported on our questionnaire experiencing some kind of external pressure .,entity,-0.9257296533323824,True
+train_7070,"Audit report: ""We have communicated each of the new control deficiencies to your staff.",other,-0.04358940199017525,True
+train_7100,"Several entities have focused on developing solutions for the same subject areas, such as counter-IED and ISR capabilities, potentially resulting in duplication of efforts .",unverifiable,-0.008496908470988274,True
+train_7100,DOD guidance was unclear about who is responsible for determining whether technologically complex solutions fall within the scope of DOD’s urgent needs processes .,other,-0.042762952856719494,True
+train_7179,"It will assess the program’s impact on infant mortality through the fourth year of the demonstration, not the fifth year as planned .",other,-0.38434918224811554,True
+train_7179,The data will reflect the impact of only 1 or 2 years during which the program was fully operational .,numeric,-0.27469244599342346,True
+train_7179,"An addendum to the report, planned to follow a year later, will contain an updated analysis of outcomes through 1996 .",numeric,-0.5072229355573654,True
+train_722,"GAO is sending copies of this report to interested congressional committees, the Fiscal Assistant Secretary of the Treasury, and the Controller of OMB’s Office of Federal Financial Management .",entity,-0.0005456935614347458,True
+train_7444,"U.S. proposal to the FSM would cover the estimated value of expiring federal services, while the proposal to FSM clearly would not .",entity,-0.11149904131889343,True
+train_7444,"Neither proposal to create buffer funds at a rate of 8.2 percent average rate of return would yield earnings sufficient to create a buffer, while FSM fund would replace grants and expiring services .",numeric,-0.04290079325437546,True
+train_7449,"In 1999, FDA implemented the Pediatric Rule, which required that sponsors include the results of pediatric studies when submitting certain new drug or biological product applications .",numeric,-0.4358852282166481,True
+train_7449,"In September 2007, Congress reauthorized both PREA and BPCA as a part of FDAAA, and in March 2010, Congress extended pediatric exclusivities to biological products .",numeric,-0.48369925655424595,True
+train_7544,Hospitals repaid the overpayments with no imposition of damages or administrative sanctions .,other,-0.058383259922266006,True
+train_7599,"Agency budgets for the federal cleanup and compliance effort, whose costs may ultimately total $400 billion, have been declining .",numeric,-0.16686541307717562,True
+train_7599,Agency cannot manage its own workload in the event that the states seek EPA’s assistance in the future .,entity,-0.32586904615163803,True
+train_7599,EPA is planning to further assess the 307 highest-risk sites to determine whether it needs to take any immediate cleanup actions at these sites .,numeric,-0.08396442234516144,True
+train_7606,"VA officials are giving little attention to these larger issues, and the trade-offs involved .",other,-0.012374860234558582,True
+train_7942,DOE officials informed us that these requirements were not reinstituted because they were not cost effective .,discourse,-0.1254066340625286,True
+train_8030,"The appraiser valued the areas as if they were six separate parcels, rather than analyzing the financial impact of the restrictions on the entire parcel .",other,-0.023970402777194977,True
+train_8030,"The appraisal did not provide enough information for us to reliably estimate the indenture’�s value, as require .",other,-0.17045529186725616,True
+train_807,ARNG Strength Maintenance Division does not know the extent of its investment in soldiers .,other,-0.2903518723323941,True
+train_807,Such information could be useful to help understand the return on investment in recruiting and training a soldier .,other,-0.02154840948060155,True
+train_807,The agency should have valid data for determining whether they are maximizing their human-capital investments .,entity,-0.0335947978310287,True
+train_811,"However, these standards apply only to audits of federal entities and those organizations receiving federal funds .",entity,-0.08716905117034912,True
+train_82,FAA has not implemented its own processes for managing these investments .,predicate,-0.16093778610229492,True
+train_8246,"USDA also reduced the lag period— the time between when the Class  I price is announced and the Class III and IV prices are announced— from approximately 8 weeks, to 6 weeks .",numeric,-0.00393207126762718,True
+train_8246,"Academic, industry, and government sources cited a variety of concerns with recent reforms in the FMMO program .",other,-0.009406226687133312,True
+train_8359,Additional diesel storage tanks will also be constructed to ensure that additional fuel resources are on-site near the radar facility and available to support backup power generation .,other,-0.018947016447782516,True
+train_8363,NRC officials reported that changes in ownership of nuclear facilities are somewhat rare and are newsworthy when they do occur .,unverifiable,-0.004963237326592207,True
+train_8363,Agencies responsible for enforcing laws specifically cite sources as factors contributing to compliance .,other,-0.22331669554114342,True
+train_8363,The United States is generally open to foreign investment in the country .,entity,-0.018349891528487206,True
+train_8449,"DOD agreed with our findings, noting that our portrayal of DOD’s health care benefit for women was accurate .",other,-0.010956578887999058,True
+train_8480,FSA allocates money to the states for its loan programs on the basis of state funding .,entity,-0.01264127204194665,True
+train_8480,The two titles account for a combined $12.4 billion savings over 10 years in the Senate bill (of $17.9 billion in total savings across all titles) and $9.8 billion in the House bill .,numeric,-0.004543629474937916,True
+train_8563,Several experts suggested that NRC should have licensees revisit their existing natural hazard assessments to incorporate current knowledge on natural hazards .,unverifiable,-0.11469931900501251,True
+train_8563,"Some of these experts noted that the state of knowledge on earthquakes, floods, and high-wind events had changed since licensees completed their assessments .",entity,-0.17646420747041702,True
+train_8563,More than half of the experts we interviewed said the NRC Fukushima Daiichi task force’s recommendations that .,other,-0.00470608239993453,True
+train_8685,"Participation did not vary significantly from 2005 to 2009, according to YRBS data .",numeric,-0.26728326082229614,True
+train_8685,Some school officials told us they have worked hard to stretch the limited funding they receive for PE instruction .,unverifiable,-0.3966215290129185,True
+train_8685,"The number of female athletes has increased over the years, in part due to the addition of new sports programs for girls .",other,-0.0005081659182906151,True
+train_8723,Most corporate income is subject to a 35% statutory tax rate .,numeric,-0.02296589221805334,True
+train_8763,CMS provides payments to these ACOs for about 56 percent of the total shared savings each year .,numeric,-0.005883441772311926,True
+train_8926,"As FDA completes its actions on more applications, its performance results could change .",other,-0.6181754171848297,True
+train_8926,"FDA received 43 PMAs, 7 Panel-Track Supplements, and 3 Expedited PMAs in the fiscal year 2003 cohort .",numeric,-0.7068760693073273,True
+train_8926,"As of March 31, 2004, one application had been subject to the cycle action tied to one of the two .",numeric,-0.7869494892656803,True
+train_9057,The bona fide needs rule is based on the Time Statute (31 U.S.C. § 1502(a),numeric,-0.0028839726001024246,True
+train_9243,SBA and SBIR officials were critical of the provision because (1) it calls for the use of .,numeric,-0.04251568950712681,True
+train_9243,the .,other,-0.046889816876500845,True
+train_9259,"Of 93 U.S. Attorneys stationed throughout the United States and its territories, those in the five southwest border districts prosecuted 85 percent of all alien smuggling cases nationwide in fiscal year 2009 .",numeric,-0.005835848860442638,True
+train_9332,Copper Valley maintains that its state issued utility easements are sufficient .,entity,-0.1049797972664237,True
+train_9348,NPRC is using overtime in an attempt to contain the growth of the backlog while it implements its reengineering.,discourse,-0.009153444319963455,True
+train_9348,"NPRC officials do not anticipate beginning to implement receipt of electronic requests until April 2002, and accessing other agency data bases could begin as late as fiscal year 2004 .",numeric,-0.06724453717470169,True
+train_937,Florida has begun expediting the design and construction of some of these projects with its own resources .,unverifiable,-0.010088364128023386,True
+train_9616,"IRS still does not have (1) effective strategic information management practices needed to manage TSM as an investment, (2) mature and disciplined software deveagogue .",numeric,-0.03233460336923599,True
+train_9715,"A-120, Guidelines for the Use of Advisory and Assistance Services, in 1993 and issued Policy Letter 93-1, Management Oversight of Services Contracting in its place .",numeric,-0.0684824613854289,True
+train_9756,Lack of experienced senior enlisted personnel in equipment repair impeded development and on-the-job training of newer soldiers .,other,-0.029584228992462158,True
+train_9943,"As IRS’s enforcement actions have changed over time, so has the nature of the problems taxpayers bring to TAS .",other,-0.001664122799411416,True
+train_9943,The available data suggests that the increase in caseload may not be an indicator of TAS and IRS performance at preventing taxpayer problems but be due to other factors .,other,-0.0018649655394256115,True
+train_9962,DOD could not determine the extent to which DOD leveraged the assets in our case studies because DOD does not have a way to track all types of assets .,discourse,-0.010489268228411674,True
+train_9997,"The Air Force identified shortfalls under 1 of the 11 first-level work breakdown structure categories totaling almost 340,000 direct labor hours .",numeric,-0.16452782601118088,True
+train_9997,"In the 2016 Core Report, DOD included information on shortfalls; however, DOD did not include mitigation plans and detailed explanations .",numeric,-0.14185825735330582,True

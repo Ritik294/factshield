@@ -40,13 +40,96 @@ Or reproduce end-to-end:
 make run_all
 ```
 
-## Human Evaluation Template
+## Extended Evaluation Pipeline
 
-Create `eval/annotations.csv` with columns:
-`doc_id,sent_id,text,label_annotator1,label_annotator2,error_type`
+After running the basic pipeline, you can run additional evaluation and analysis:
 
-* `label_*` in `{SUPPORTED,LOW-CONF}`
-* `error_type` (FRANK-style): `entity, numeric, predicate, discourse, unverifiable, other`
+# 1. Run new baseline (Lead-3 extractive)
+```bash
+make baseline_lead3
+```
+
+# 2. Evaluate Lead-3 baseline
+```bash
+python -m src.eval_rouge --refs data/govreport_subset --hyps runs/baselines/lead3.jsonl --out eval/rouge_lead3.csv
+```
+
+# 3. Enhanced statistics (with statistical tests and per-document breakdown)
+```bash
+make eval_stats_enhanced
+```
+
+# 4. Error analysis (categorize NLI failures)
+```bash
+make error_analysis
+```
+
+# 5. Qualitative examples (best/worst summaries)
+```bash
+make qualitative
+```
+
+# 6. Citation quality metrics
+```bash
+make citation_quality
+```
+
+# 7. Bias analysis (gender/demographic terms)
+```bash
+make eval_bias
+```
+
+# 8. Limitations analysis (failure cases, citation issues)
+```bash
+make eval_limitations
+```
+
+# 9. BERTScore evaluation (semantic similarity - takes ~7 minutes)
+```bash
+make eval_bertscore
+```
+# 10. Ablation studies (run separately, each takes time)
+```bash
+make ablation_threshold  # Fastest (~1 second)
+make ablation_topk       # Medium (~20-25 minutes)
+make ablation_chunksize  # Slower (~10-15 minutes)
+```
+
+Instead of running steps 1-8 individually, you can use the comprehensive evaluation target:
+```bash
+make eval_comprehensive
+```
+
+This automatically runs:
+- `baseline_lead3` (if not already run)
+- Lead-3 ROUGE evaluation
+- Enhanced statistics with statistical tests
+- Error analysis
+- Qualitative examples
+- Citation quality
+- Bias analysis
+- Limitations analysis
+
+**Note**: This does NOT include BERTScore or ablation studies (steps 9-10) as they are time-consuming. Run those separately if needed.
+
+## Human Evaluation
+
+**Manual Annotation Process**: The `eval/annotations.csv` file was manually created by:
+1. Sampling summaries from `runs/improved/rag_cited.jsonl`
+2. Extracting sentences from selected summaries
+3. Having two annotators independently label each sentence as `SUPPORTED` or `LOW-CONF`
+4. Recording error types for sentences marked as `LOW-CONF`
+
+**CSV Format**: `eval/annotations.csv` contains columns:
+- `doc_id` – document identifier
+- `sent_id` – sentence number within summary
+- `text` – sentence text
+- `label_annotator1` – label from annotator 1: `SUPPORTED` or `LOW-CONF`
+- `label_annotator2` – label from annotator 2: `SUPPORTED` or `LOW-CONF`
+- `error_type` – error category (if `LOW-CONF`): `entity`, `numeric`, `predicate`, `discourse`, `unverifiable`, `other`
+
+**Running Human Evaluation**:h
+make human_evalThis computes inter-annotator agreement (Cohen's κ) and error type statistics from the manual annotations.
 
 Then run:
 
@@ -63,14 +146,35 @@ from src.seed import set_seed
 set_seed(42)
 ```
 
-Call it at the top of any new scripts you add.
 
 ## Outputs
 
-* `runs/baselines/*.jsonl` – baseline summaries
+* `runs/baselines/*.jsonl` – baseline summaries (textrank, distilbart, lead3)
 * `runs/improved/rag_cited.jsonl` – improved summaries with `[CIT:*]`
 * `runs/verify/nli_scores.jsonl` – per-sentence NLI status + support ratio
+* `runs/ablation/*.csv` – ablation study results (top-k, chunk size, threshold)
 * `eval/rouge_*.csv`, `eval/summary_table.csv` – ROUGE with 95% CIs
+* `eval/summary_table_statistical_tests.csv` – statistical significance tests
+* `eval/summary_table_per_doc.csv` – per-document ROUGE breakdown
 * `eval/factuality_summary.csv` – factuality mean with 95% CIs
-* `eval/human_eval_summary.json` – Cohen’s κ and error tallies (if provided)
+* `eval/error_analysis.csv` – error type distribution
+* `eval/error_analysis_detailed.csv` – detailed error examples
+* `eval/bias_analysis.csv` – gender/demographic term frequency
+* `eval/citation_quality.csv` – citation coverage and accuracy metrics
+* `eval/limitations_analysis.csv` – failure case analysis
+* `eval/limitations_analysis_summary.json` – limitations summary statistics
+* `eval/qualitative_examples.json` – best/worst summary examples
+* `eval/bertscore_rag.csv` – BERTScore semantic similarity scores
+* `eval/human_eval_summary.json` – Cohen's κ and error tallies (if provided)
 
+
+## Evaluation Notes
+
+**ROUGE Scores**: We use the first ~3 paragraphs of each document as pseudo-references. This is a limitation since these may not be ideal gold summaries. Lower ROUGE scores may reflect:
+- Pseudo-reference quality (first paragraphs may not capture document essence)
+- Abstractive vs extractive mismatch (our models generate abstractive summaries)
+- Domain-specific language in government reports
+
+**Factuality Verification**: Requires citations in summaries. If `support_ratio` is 0.0, check that RAG summaries contain `[CIT:doc:chunk]` tags.
+
+**Statistical Tests**: Enhanced evaluation includes t-tests comparing RAG vs baselines. Results are saved in `eval/summary_table_statistical_tests.csv`.

@@ -21,4 +21,6 @@ dependencies:
       - tqdm>=4.66
       - gradio>=4.38
       - datasets>=2.20.0
-      - pytest
+      - pytest>=7.0.0
+      - bert-score>=0.3.13
+      - scipy>=1.11.0

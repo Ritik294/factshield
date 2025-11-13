@@ -1,0 +1,153 @@
+{
+  "best": [
+    {
+      "doc_id": "train_15508",
+      "rouge1": 0.2085714285714285,
+      "rouge2": 0.2034383954154728,
+      "rougeL": 0.2085714285714285,
+      "factuality": 0.6666666666666666,
+      "summary": "The Japanese tsunami of March 11, 2011, illustrated the potential for damage and loss of life posed by a potential tsunami in the Pacific . [CIT:train_15508:train_15508_0000] A fault system off the northwestern United States, called the Cascadia Subduction Zone, is similar to the fault system responsible for the 2011 Japanese tsunami disaster . [CIT:train_15508:train_15508_0000] Congress passed the Tsunami Warning, Education, and Research Act of 2017 as Title V of P.L. 115-25 . [CIT:train_15508:train_15508_0000]",
+      "citation_count": 3,
+      "citations": [
+        "train_15508:train_15508_0000",
+        "train_15508:train_15508_0000",
+        "train_15508:train_15508_0000"
+      ]
+    },
+    {
+      "doc_id": "train_7871",
+      "rouge1": 0.071563088512241,
+      "rouge2": 0.064090480678605,
+      "rougeL": 0.0687382297551789,
+      "factuality": 0.6666666666666666,
+      "summary": "In June 2016, we also reported that in addition to training and public awareness, federal agencies have established grant programs to increase the availability of services to assist human trafficking victims . [CIT:train_7871:train_7871_0002] We identified 42 grant programs with awards made in 2014 and 2015 that may be used to combat human trafficking or to assist victims of human trafficking, 15 of which are intended solely for these purposes . [CIT:train_7871:train_7871_0002] According to Trafficking Office analysts, Tier 1 countries must criminalize all forms of trafficking . [CIT:train_7871:train_3105_0011]",
+      "citation_count": 3,
+      "citations": [
+        "train_7871:train_7871_0002",
+        "train_7871:train_7871_0002",
+        "train_7871:train_3105_0011"
+      ]
+    },
+    {
+      "doc_id": "train_6515",
+      "rouge1": 0.0399265718219366,
+      "rouge2": 0.0381083562901744,
+      "rougeL": 0.0367140890316659,
+      "factuality": 0.75,
+      "summary": "IRS data indicated that IRS collected about $33.1 billion in fiscal year 1994, or $1.7 billion more than fiscal year 1995 . [CIT:train_6515:train_6515_0004] Despite the estimated additional revenue from the initiatives, however, the amount of enforcement revenue collected in 1995 was less than the amount collected in 1994 . [CIT:train_6515:train_6515_0004] IRS’ methodology for computing the results of the . [CIT:train_6515:train_6515_0005] 1995 compliance initiatives is a significant improvement over past methodologies, but there are productivity assumptions embedded in the methodology that are not based on empirical data . [CIT:train_6515:train_6515_0005]",
+      "citation_count": 4,
+      "citations": [
+        "train_6515:train_6515_0004",
+        "train_6515:train_6515_0004",
+        "train_6515:train_6515_0005",
+        "train_6515:train_6515_0005"
+      ]
+    },
+    {
+      "doc_id": "train_11139",
+      "rouge1": 0.0856832971800433,
+      "rouge2": 0.0792616720955483,
+      "rougeL": 0.0737527114967462,
+      "factuality": 0.5,
+      "summary": "Industry observers have raised concerns about perceived gaps in food import safety over the past few years . [CIT:train_11139:train_11139_0000] Currently, the FDA does not have express statutory authority to regulate the private laboratories that sample or test these imported goods . [CIT:train_11139:train_11139_0002] This report focuses on proposals for FDA regulation of private laboratories . [CIT:train_11139:train_11139_0001] The Action Plan for Import Safety notes that the FDA plans to issue guidance \"that would set standards for the sampling and testing of imported products\" [CIT:train_11139:train_11139_0002]",
+      "citation_count": 4,
+      "citations": [
+        "train_11139:train_11139_0000",
+        "train_11139:train_11139_0002",
+        "train_11139:train_11139_0001",
+        "train_11139:train_11139_0002"
+      ]
+    },
+    {
+      "doc_id": "dev_8163",
+      "rouge1": 0.044047619047619,
+      "rouge2": 0.042287075640262,
+      "rougeL": 0.044047619047619,
+      "factuality": 0.6666666666666666,
+      "summary": "The prime integrator’s system has been independently certified as meeting established standards . [CIT:dev_8163:dev_8163_0003] The EVM system had not been fully implemented because the baselines against which progress can be measured for the two task orders that had been issued, as of early December (program management and Project 28) had not yet been established . [CIT:dev_8163:dev_8163_0003] It is unclear where SBInet is in the DHS capital planning and investment control review process . [CIT:dev_8163:dev_8163_0004]",
+      "citation_count": 3,
+      "citations": [
+        "dev_8163:dev_8163_0003",
+        "dev_8163:dev_8163_0003",
+        "dev_8163:dev_8163_0004"
+      ]
+    }
+  ],
+  "worst": [
+    {
+      "doc_id": "train_8246",
+      "rouge1": 0.0047355609648152,
+      "rouge2": 0.004602991944764,
+      "rougeL": 0.0042929851737109,
+      "factuality": 0.0,
+      "summary": "The Central and Mideast Orders tightened their pooling provisions to control the large quantities of milk from Minnesota and Wisconsin that were being pooled on these two orders . [CIT:train_8246:train_8246_0037] USDA also reduced the lag period— the time between when the Class [CIT:train_8246:train_8246_0033] I price is announced and the Class III and IV prices are announced— from approximately 8 weeks, to 6 weeks . [CIT:train_8246:train_8246_0033] Academic, industry, and government sources cited a variety of concerns with recent reforms in the FMMO program . [CIT:train_8246:train_8246_0041]",
+      "citation_count": 4,
+      "citations": [
+        "train_8246:train_8246_0037",
+        "train_8246:train_8246_0033",
+        "train_8246:train_8246_0033",
+        "train_8246:train_8246_0041"
+      ]
+    },
+    {
+      "doc_id": "train_2639",
+      "rouge1": 0.0051567487926659,
+      "rouge2": 0.0045022920759659,
+      "rougeL": 0.0050748956372268,
+      "factuality": 0.0,
+      "summary": "USAID awarded CH2M Hill a contract to provide technical support for its environmental activities in Russia, Kazakstan, and Ukraine in 1993 . [CIT:train_2639:train_2639_0021] USAID approved a $9.4-million delivery order for CH2m Hill to implement and coordinate these activities . [CIT:train_2639:train_2639_0021] The contract specifies 25 tasks for CHm Hill and multiple subcontractors to address these objectives . [CIT:train_2639:train_2639_0021] CHm. Hill is an integral part of USAID’s $35-million environmental policy and technology program . [CIT:train_2639:train_2639_0020]",
+      "citation_count": 4,
+      "citations": [
+        "train_2639:train_2639_0021",
+        "train_2639:train_2639_0021",
+        "train_2639:train_2639_0021",
+        "train_2639:train_2639_0020"
+      ]
+    },
+    {
+      "doc_id": "train_14152",
+      "rouge1": 0.0056068478301498,
+      "rouge2": 0.0052334492168517,
+      "rougeL": 0.0054573318880125,
+      "factuality": 0.0,
+      "summary": "An alternative (and theoretically more efficient) approach to regeneration is based in electrochemistry . [CIT:train_14152:train_14152_0023] This technology is similar to a fuel cell in that it requires electrodes and specialized membranes to selectively separate species such as protons and hydroxide ions . [CIT:train_14152:train_14152_0023] There are two variations of the pH swing concept, electrolysis and electrodialysis . [CIT:train_14152:train_14152_0023] The energy required for electrolysis is high and similar to that required for ceramic materials . [CIT:train_14152:train_14152_0028]",
+      "citation_count": 4,
+      "citations": [
+        "train_14152:train_14152_0023",
+        "train_14152:train_14152_0023",
+        "train_14152:train_14152_0023",
+        "train_14152:train_14152_0028"
+      ]
+    },
+    {
+      "doc_id": "train_2340",
+      "rouge1": 0.0066602530896174,
+      "rouge2": 0.0050329361261194,
+      "rougeL": 0.0060682305927625,
+      "factuality": 0.0,
+      "summary": "GAO-13-133R and Department of Defense, Inspector General, Contracting Improvements Still Needed in DOD’s FY 2011Purchases Made Through the Department of Veterans Affairs, DODIG-2013-028 (Alexandria, VA.: [CIT:train_2340:train_2340_0011] Dec. 7, 2012) Removing the management of interagency contracting from the High Risk List does not mean that the federal government’�s use of these contracts is without challenges . [CIT:train_2340:train_2340_0001] We will continue to monitor this area, as appropriate, to ensure that the improvements we have noted are sustained . [CIT:train_2340:train_2340_0011]",
+      "citation_count": 3,
+      "citations": [
+        "train_2340:train_2340_0011",
+        "train_2340:train_2340_0001",
+        "train_2340:train_2340_0011"
+      ]
+    },
+    {
+      "doc_id": "dev_12823",
+      "rouge1": 0.0067818654775176,
+      "rouge2": 0.0061321192975936,
+      "rougeL": 0.0066889632107023,
+      "factuality": 0.0,
+      "summary": "In January 1992, the enhanced worksite enforcement initiative was extended indefinitely . [CIT:dev_12823:dev_12823_0018] Congress also enacted the Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRIRA) [CIT:dev_12823:dev_12823_0021] In 2004, estimates by the Pew Hispanic Center said the unauthorized alien population totaled about 10.3 million . [CIT:dev_12823:dev_12823_0018] The issue of works site enforcement has gained attention recently in connection with guest worker proposals . [CIT:dev_12823:dev_12823_0018] The budget for FY1996 was $50 million . [CIT:dev_12823:dev_12823_0018]",
+      "citation_count": 5,
+      "citations": [
+        "dev_12823:dev_12823_0018",
+        "dev_12823:dev_12823_0021",
+        "dev_12823:dev_12823_0018",
+        "dev_12823:dev_12823_0018",
+        "dev_12823:dev_12823_0018"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "total_docs": 301,
+  "avg_support_ratio": 0.15404208194905866,
+  "citation_failure_rate": 0.009966777408637873,
+  "low_coverage_rate": 0.0,
+  "by_length": {
+    "short": 0.15403868031854379,
+    "medium": 0.15416666666666667,
+    "long": NaN,
+    "very_long": NaN
+  },
+  "by_failure_type": {
+    "no_support": 168,
+    "partial_success": 125,
+    "low_citation_coverage": 8
+  }
+}

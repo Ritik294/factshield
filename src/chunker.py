@@ -6,6 +6,24 @@ from src.utils import write_jsonl
 # CPU‑friendly chunker: token windows with overlap
 
 def chunk_text(text, tokenizer, chunk_tokens=900, stride=200):
+    """
+    Split text into overlapping chunks using tokenizer.
+    
+    Args:
+        text: Input text to chunk
+        tokenizer: HuggingFace tokenizer instance
+        chunk_tokens: Maximum tokens per chunk (default: 900)
+        stride: Overlap size in tokens (default: 200)
+    
+    Returns:
+        List of tuples: (start_token, end_token, chunk_text)
+    
+    Example:
+        >>> from transformers import AutoTokenizer
+        >>> tok = AutoTokenizer.from_pretrained('sshleifer/distilbart-cnn-12-6')
+        >>> chunks = chunk_text("Long text here...", tok, chunk_tokens=500, stride=100)
+        >>> len(chunks)  # Number of chunks
+    """
     tokens = tokenizer.encode(text, add_special_tokens=False)
     chunks = []
     for start in range(0, len(tokens), chunk_tokens - stride):
