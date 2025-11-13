@@ -9,6 +9,8 @@ conda activate factshield
 python -m spacy download en_core_web_sm
 make setup
 ````
+> **Note:** If `make` isn’t available on your OS, install it (e.g., via Chocolatey or Scoop on Windows) or run the equivalent Python commands shown in the Makefile.as long as the process stays running.
+
 
 ## Data
 ### Generate GovReport subset (run once)
@@ -112,6 +114,13 @@ This automatically runs:
 
 **Note**: This does NOT include BERTScore or ablation studies (steps 9-10) as they are time-consuming. Run those separately if needed.
 
+## Tests
+
+Run `pytest` from the repository root to execute the unit/integration checks in `tests/`.
+```bash
+pytest
+```
+
 ## Human Evaluation
 
 **Manual Annotation Process**: The `eval/annotations.csv` file was manually created by:
@@ -178,3 +187,19 @@ set_seed(42)
 **Factuality Verification**: Requires citations in summaries. If `support_ratio` is 0.0, check that RAG summaries contain `[CIT:doc:chunk]` tags.
 
 **Statistical Tests**: Enhanced evaluation includes t-tests comparing RAG vs baselines. Results are saved in `eval/summary_table_statistical_tests.csv`.
+
+
+
+## Interface Demo
+
+Launch the Gradio UI:
+```bash
+make app
+# or
+python -m app.app
+```
+Once running, open `http://127.0.0.1:7860` (or `http://localhost:7860`) in your browser.  
+Paste a long document, click “Summarize with citations + verify,” and you’ll get:
+- A summary with `[CIT:doc:chunk]` markers (click them to see citations).
+- An overall factuality support ratio.
+- Sentence-level verification details (supported vs low-confidence).
