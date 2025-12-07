@@ -9,8 +9,8 @@ conda activate factshield
 python -m spacy download en_core_web_sm
 make setup
 ````
-> **Note:** If `make` isn’t available on your OS, install it (e.g., via Chocolatey or Scoop on Windows) or run the equivalent Python commands shown in the Makefile.as long as the process stays running.
 
+> **Note:** If `make` isn't available on your OS, install it (e.g., via Chocolatey or Scoop on Windows) or run the equivalent Python commands shown in the Makefile.
 
 ## Data
 ### Generate GovReport subset (run once)
@@ -137,8 +137,7 @@ pytest
 - `label_annotator2` – label from annotator 2: `SUPPORTED` or `LOW-CONF`
 - `error_type` – error category (if `LOW-CONF`): `entity`, `numeric`, `predicate`, `discourse`, `unverifiable`, `other`
 
-**Running Human Evaluation**:h
-make human_evalThis computes inter-annotator agreement (Cohen's κ) and error type statistics from the manual annotations.
+**Running Human Evaluation**: This computes inter-annotator agreement (Cohen's κ) and error type statistics from the manual annotations.
 
 Then run:
 
@@ -148,12 +147,28 @@ make human_eval
 
 ## Reproducibility
 
-We expose a global seed in `src/seed.py`:
+We ensure reproducibility through:
 
-```python
-from src.seed import set_seed
-set_seed(42)
-```
+1. **Fixed Random Seed**: Global seed set to 42 in `src/seed.py`:
+   ```python
+   from src.seed import set_seed
+   set_seed(42)
+   ```
+2. **Deterministic Data Splits**: The data extraction script uses a fixed seed to generate reproducible train/dev/test splits saved in `data/govreport_subset/`.
+
+3. **Model Versions**: All models are pinned to specific versions:
+   - DistilBART: `sshleifer/distilbart-cnn-12-6`
+   - RoBERTa-large-MNLI: `roberta-large-mnli`
+   - Sentence-transformers: `all-MiniLM-L6-v2`
+
+4. **Environment**: Use `environment.yml` or `requirements.txt` to ensure consistent package versions.
+
+To reproduce exact results:
+1. Use the same Python version (3.8+)
+2. Install dependencies from `requirements.txt`
+3. Run data extraction first (generates deterministic splits)
+4. Run pipeline steps in order
+
 
 
 ## Outputs
@@ -203,3 +218,22 @@ Paste a long document, click “Summarize with citations + verify,” and you’
 - A summary with `[CIT:doc:chunk]` markers (click them to see citations).
 - An overall factuality support ratio.
 - Sentence-level verification details (supported vs low-confidence).
+
+
+
+## Troubleshooting
+
+**Issue**: `DatasetNotFoundError` when running data extraction
+- **Solution**: Ensure internet connection and Hugging Face access. Try: `huggingface-cli login`
+
+**Issue**: `ModuleNotFoundError` when running scripts
+- **Solution**: Ensure conda environment is activated: `conda activate factshield`
+
+**Issue**: Low factuality scores (0% support ratio)
+- **Solution**: Check that RAG summaries contain `[CIT:doc:chunk]` tags. Verify citations are being generated.
+
+**Issue**: Out of memory errors
+- **Solution**: Reduce batch sizes in scripts or use smaller models.
+
+**Issue**: `make` command not found (Windows)
+- **Solution**: Install via Chocolatey (`choco install make`) or run Python commands directly from Makefile.
