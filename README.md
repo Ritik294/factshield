@@ -1,4 +1,4 @@
-# FactShield (CPU) — Evidence-Grounded Summarization
+# FactShield — Evidence-Grounded Summarization
 
 **Goal**: RAG + must-cite summaries of long public documents with sentence-level factuality verification on CPU-only hardware.
 
