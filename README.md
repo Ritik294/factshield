@@ -1,5 +1,8 @@
 # FactShield — Evidence-Grounded Summarization
 
+Course: Data641 (Fall 2025)
+Contributors: Swattik Maiti, Ritik Pratap Singh
+
 **Goal**: RAG + must-cite summaries of long public documents with sentence-level factuality verification on CPU-only hardware.
 
 ## Quick Start
