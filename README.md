@@ -223,6 +223,7 @@ Paste a long document, click “Summarize with citations + verify,” and you’
 - An overall factuality support ratio.
 - Sentence-level verification details (supported vs low-confidence).
 
+<img width="1910" height="959" alt="Screenshot 2025-12-11 232313" src="https://github.com/user-attachments/assets/6d8b6a5b-ace8-4aa4-839f-18dbd58690d5" />
 
 
 ## Troubleshooting
