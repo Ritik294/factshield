@@ -2,7 +2,7 @@
 
 **Course**: Data641 (Fall 2025)
 
-**Contributors**: Swattik Maiti, Ritik Pratap Singh
+**Contributors**: Swattik Maiti (UID: 121079367), Ritik Pratap Singh (UID: 120539527)
 
 **Goal**: RAG + must-cite summaries of long public documents with sentence-level factuality verification on CPU-only hardware.
 
